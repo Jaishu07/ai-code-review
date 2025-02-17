@@ -148,7 +148,7 @@
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 
-const genAI = new GoogleGenerativeAI("YOUR_VALID_API_KEY");
+const genAI = new GoogleGenerativeAI("AIzaSyAdTIcnBy2UdBEj7Rt7e9R_vvIaB8qPP0M");
 
 export const analyzeCode = async (code, language) => {
   try {
