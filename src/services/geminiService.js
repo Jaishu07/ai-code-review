@@ -62,8 +62,7 @@ export const analyzeCode = async (code, language) => {
     //   ${code}
     //   \`\`\`
     // `
-    `
-                Here’s a solid system instruction for your AI code reviewer:
+   const prompt  `Here’s a solid system instruction for your AI code reviewer:
 
                 AI System Instruction: Senior Code Reviewer (7+ Years of Experience)
 
