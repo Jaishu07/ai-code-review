@@ -56,7 +56,7 @@ const AnalysisModal = ({ analysis, isAnalyzing, error, setAnalysis }) => {
               >
                 <ReactMarkdown
                   components={{
-                    h2: ({ node, ...props }) => (
+                    h1: ({ node, ...props }) => (
                       <motion.h2
                         initial={{ opacity: 0, x: -20 }}
                         animate={{ opacity: 1, x: 0 }}
@@ -76,7 +76,7 @@ const AnalysisModal = ({ analysis, isAnalyzing, error, setAnalysis }) => {
                     ),
                     code: ({ node, inline, ...props }) => (
                       inline ? (
-                        <code {...props} className="bg-black/50 text-gray-300 px-1 py-0.5 rounded" />
+                        <code {...props} className="bg-black/50 text-gray-300 px-2 py-4 rounded" />
                       ) : (
                         <motion.div
                           initial={{ opacity: 0 }}
