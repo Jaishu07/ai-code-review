@@ -76,7 +76,7 @@ const AnalysisModal = ({ analysis, isAnalyzing, error, setAnalysis }) => {
                     ),
                     code: ({ node, inline, ...props }) => (
                       inline ? (
-                        <code {...props} className="bg-black/50 text-gray-300 px-2 py-4 rounded" />
+                        <code {...props} className="bg-black/50 text-gray-300 px-2 py-2 rounded" />
                       ) : (
                         <motion.div
                           initial={{ opacity: 0 }}
