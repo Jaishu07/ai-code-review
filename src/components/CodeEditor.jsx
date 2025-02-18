@@ -335,7 +335,7 @@ const CodeEditorComponent = () => {
                       ),
                       code: ({ node, inline, ...props }) => (
                         inline ? (
-                          <code {...props} className="bg-purple-500/10 text-purple-400 px-1 py-0.5 rounded" />
+                          <code {...props} className="bg-black-500/10 text-zinc-700 px-1 py-0.5 rounded" />
                         ) : (
                           <motion.div
                             initial={{ opacity: 0 }}
