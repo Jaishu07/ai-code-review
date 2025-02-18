@@ -351,8 +351,8 @@ const CodeEditorComponent = () => {
                                 📋
                               </button>
                             </div>
-                            <pre {...props} className="rounded-lg !mt-0" />
-                          </motion.div>
+                            <pre {...props} className="bg-stone-950 rounded-lg !mt-0" />
+                          </motion.div> 
                         )
                       ),
                     }}
